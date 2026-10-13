@@ -205,11 +205,11 @@ class _BulkPageState extends State<BulkPage> {
           _fileCard(finished: true),
           const SizedBox(height: 24),
           _summary(),
-          const SizedBox(height: 24),
+          const SizedBox(height: 24),/*
           AspectInsights(
             stats: computeAspectStats(_results.where((r) => hasArabic(r.text))),
             subtitle: 'مبني على التقييمات العربية داخل هذا الملف',
-          ),
+          ),*/
           const SizedBox(height: 24),
           _resultsList(),
         ],
